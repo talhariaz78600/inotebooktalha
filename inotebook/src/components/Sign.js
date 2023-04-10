@@ -20,7 +20,7 @@ function Sign() {
          <div className="container" style={{backgroundColor:"#f8f9fa"}}>
                 <div className="row justify-content-center">
                     <div className="col-md-5 mt-5 mb-2">
-                        <div className="container" style={{border:"2px solid black",marginTop:"150px", borderRadius: "4px", backgroundColor: "#003049", height: "300px"}}>
+                        <div className="container" style={{border:"2px solid black",marginTop:"120px", borderRadius: "4px", backgroundColor: "#003049", height: "300px"}}>
                             <div className="row">
                                 <div className="col-md-12 p-0 bg-primary text-center">
                                     <div>
