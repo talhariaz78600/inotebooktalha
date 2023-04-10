@@ -3,7 +3,7 @@ import noteContext from "./noteContext";
 import { useState } from "react";
 
 const local='';
-// const local='https://fine-teal-coypu-kilt.cyclic.app'
+// const local='http://localhost:5000'
 const Notestate = (props) => {
 
   const notes = []

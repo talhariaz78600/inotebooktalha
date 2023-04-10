@@ -20,7 +20,7 @@ function Sign() {
          <div className="container" style={{backgroundColor:"#f8f9fa"}}>
                 <div className="row justify-content-center">
                     <div className="col-md-5 mt-5 mb-2">
-                        <div className="container mt-3" style={{border:"2px solid black", borderRadius: "4px", backgroundColor: "#003049", height: "300px"}}>
+                        <div className="container" style={{border:"2px solid black",marginTop:"150px", borderRadius: "4px", backgroundColor: "#003049", height: "300px"}}>
                             <div className="row">
                                 <div className="col-md-12 p-0 bg-primary text-center">
                                     <div>
@@ -32,11 +32,11 @@ function Sign() {
                                     <form action="" onSubmit={oncllick}>
 
                                     <div className="form-group">
-                                        <input type="text" className="form-control form-control-lg my-2" name="ename" id="ename" placeholder="Enter user name" onChange={onChange}/>
-                                        <input type="email" className="form-control form-control-lg my-2" name="email" id="email" onChange={onChange} placeholder="Enter  email "/>
-                                        <input type="password" className="form-control form-control-lg my-2" name="password" id="password" onChange={onChange} placeholder="Enter password"/>
+                                        <input type="text" className="form-control  my-2" name="ename" id="ename" placeholder="Enter user name" onChange={onChange}/>
+                                        <input type="email" className="form-control  my-2" name="email" id="email" onChange={onChange} placeholder="Enter  email "/>
+                                        <input type="password" className="form-control my-2" name="password" id="password" onChange={onChange} placeholder="Enter password"/>
                                         
-                                        <button type='submit' className="btn  btn-lg btn-primary my-2 form-control"> SignUp</button>
+                                        <button type='submit' className="btn btn-primary my-2 form-control"> SignUp</button>
                                     </div>
                                     </form>
                                     {/* <!-- <div className="d-grid gap-2  mx-auto">
